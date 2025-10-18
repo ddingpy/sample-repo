@@ -1,0 +1,393 @@
+
+// !\$*UTF8*\$!
+{
+    archiveVersion = 1;
+    objectVersion = 60;
+    objects = {
+
+/* Begin PBXBuildFile section */
+        913B78A5A375416AA4538686 /* MediaPlaybackSample_macOSApp.swift in Sources */ = {
+            isa = PBXBuildFile;
+            fileRef = F0C8538918EB4F2EB97B889E /* MediaPlaybackSample_macOSApp.swift */;
+        };
+        BC3FCA15862F4EDEABDBCBF6 /* PlayerViewRepresentable.swift in Sources */ = {
+            isa = PBXBuildFile;
+            fileRef = 574FC8E6E92145DEB5F17D27 /* PlayerViewRepresentable.swift */;
+        };
+        7075A45DFB594098B22EBCD9 /* ContentView.swift in Sources */ = {
+            isa = PBXBuildFile;
+            fileRef = 0F79C6A46BF84AD6B6F65B14 /* ContentView.swift */;
+        };
+
+        25CA93FA9BEB46729F90540C /* ResilientStreamer.swift in Sources */ = {
+            isa = PBXBuildFile;
+            fileRef = 0B12B8C59C0B4E7199A9981D /* ResilientStreamer.swift */;
+        };
+        5F9497E164F341F29CFD0C2F /* PlaybackUtilities.swift in Sources */ = {
+            isa = PBXBuildFile;
+            fileRef = 66C8CBE826CF4BF4B597DE89 /* PlaybackUtilities.swift */;
+        };
+
+        C5CEF9A409414D52960B8CDF /* ReadyToPlayTests.swift in Sources */ = {
+            isa = PBXBuildFile;
+            fileRef = 49A61F85A27F4CF4A42BA89C /* ReadyToPlayTests.swift */;
+        };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+        F0C8538918EB4F2EB97B889E /* MediaPlaybackSample_macOSApp.swift */ = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = MediaPlaybackSample_macOSApp.swift;
+            sourceTree = "<group>";
+        };
+        574FC8E6E92145DEB5F17D27 /* PlayerViewRepresentable.swift */ = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = PlayerViewRepresentable.swift;
+            sourceTree = "<group>";
+        };
+        0F79C6A46BF84AD6B6F65B14 /* ContentView.swift */ = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = ContentView.swift;
+            sourceTree = "<group>";
+        };
+        5EA2334098D347BDB8563049 /* Info.plist */ = {
+            isa = PBXFileReference;
+            lastKnownFileType = text.plist.xml;
+            path = Info.plist;
+            sourceTree = "<group>";
+        };
+        D35D61C07D6745E5974A351D /* MediaPlayback-macOS.app */ = {
+            isa = PBXFileReference;
+            explicitFileType = wrapper.application;
+            path = "MediaPlayback-macOS.app";
+            sourceTree = BUILT_PRODUCTS_DIR;
+        };
+
+        0B12B8C59C0B4E7199A9981D /* ResilientStreamer.swift */ = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = ResilientStreamer.swift;
+            sourceTree = "<group>";
+        };
+        66C8CBE826CF4BF4B597DE89 /* PlaybackUtilities.swift */ = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = PlaybackUtilities.swift;
+            sourceTree = "<group>";
+        };
+
+        49A61F85A27F4CF4A42BA89C /* ReadyToPlayTests.swift */ = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = ReadyToPlayTests.swift;
+            sourceTree = "<group>";
+        };
+        8CC3DB60F86B4E79BEB86DD7 /* MediaPlayback-macOSTests.xctest */ = {
+            isa = PBXFileReference;
+            explicitFileType = wrapper.cfbundle;
+            path = "MediaPlayback-macOSTests.xctest";
+            sourceTree = BUILT_PRODUCTS_DIR;
+        };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+        741C6BDEF959451785350F95 /* Frameworks */ = {
+            isa = PBXFrameworksBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+
+        D1BAF28FE2974C5EA9346102 /* Frameworks */ = {
+            isa = PBXFrameworksBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+        09A6A269CF224415B3525875 = {
+            isa = PBXGroup;
+            children = (
+                8CC3DB60F86B4E79BEB86DD7 /* MediaPlayback-macOSTests.xctest */,
+                6588D19C1A5C4D96A2CFC35C /* Products */,
+                6A1BD8D5CB8B4628AC2BC1AE /* MediaPlayback-macOS */,
+                3DF3CA88E5994C4EA984F236 /* Tests */,
+            );
+            sourceTree = "<group>";
+        };
+        6588D19C1A5C4D96A2CFC35C /* Products */ = {
+            isa = PBXGroup;
+            children = (
+                8CC3DB60F86B4E79BEB86DD7 /* MediaPlayback-macOSTests.xctest */,
+                D35D61C07D6745E5974A351D /* MediaPlayback-macOS.app */,
+            );
+            name = Products;
+            sourceTree = "<group>";
+        };
+
+        6A1BD8D5CB8B4628AC2BC1AE /* MediaPlayback-macOS */ = {
+            isa = PBXGroup;
+            children = (
+                8CC3DB60F86B4E79BEB86DD7 /* MediaPlayback-macOSTests.xctest */,
+                F0C8538918EB4F2EB97B889E /* MediaPlaybackSample_macOSApp.swift */,
+                574FC8E6E92145DEB5F17D27 /* PlayerViewRepresentable.swift */,
+                0F79C6A46BF84AD6B6F65B14 /* ContentView.swift */,
+                5EA2334098D347BDB8563049 /* Info.plist */,
+            );
+            path = "MediaPlayback-macOS";
+            sourceTree = "<group>";
+        };
+
+
+        749F192B802544E3B9922C4A /* SharedCore */ = {
+            isa = PBXGroup;
+            children = (
+                8CC3DB60F86B4E79BEB86DD7 /* MediaPlayback-macOSTests.xctest */,
+                0B12B8C59C0B4E7199A9981D /* ResilientStreamer.swift */,
+                66C8CBE826CF4BF4B597DE89 /* PlaybackUtilities.swift */,
+            );
+            path = "../SharedCore";
+            sourceTree = "<group>";
+        };
+
+
+        3DF3CA88E5994C4EA984F236 /* Tests */ = {
+            isa = PBXGroup;
+            children = (
+                8CC3DB60F86B4E79BEB86DD7 /* MediaPlayback-macOSTests.xctest */,
+                49A61F85A27F4CF4A42BA89C /* ReadyToPlayTests.swift */,
+            );
+            path = "MediaPlayback-macOS";
+            sourceTree = "<group>";
+        };
+
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+        667C1776E4454F29B58ACB2C /* MediaPlayback-macOS */ = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = E6BF0D24D55446B2A9DE16C7 /* Build configuration list for PBXNativeTarget "MediaPlayback-macOS" */;
+            buildPhases = (
+                7C1A87CB51A44C06BFC2986E /* Sources */,
+                741C6BDEF959451785350F95 /* Frameworks */,
+                17DB7565C8E44CD6A0117BDB /* Resources */,
+            );
+            buildRules = (
+            );
+            dependencies = (
+            );
+            name = "MediaPlayback-macOS";
+            productName = "MediaPlayback-macOS";
+            productReference = D35D61C07D6745E5974A351D /* MediaPlayback-macOS.app */;
+            productType = "com.apple.product-type.application";
+        };
+
+        B36EBC5508C64268885818F5 /* MediaPlayback-macOSTests */ = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = FDF87BAA98894BEFA8654146 /* Build configuration list for PBXNativeTarget "MediaPlayback-macOSTests" */;
+            buildPhases = (
+                3BBE369683FC4A35884B7282 /* Sources */,
+                D1BAF28FE2974C5EA9346102 /* Frameworks */,
+            );
+            buildRules = (
+            );
+            dependencies = (
+            );
+            name = "MediaPlayback-macOSTests";
+            productName = "MediaPlayback-macOSTests";
+            productReference = 8CC3DB60F86B4E79BEB86DD7 /* MediaPlayback-macOSTests.xctest */;
+            productType = "com.apple.product-type.bundle.unit-test";
+        };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+        31A840F4C9534ADEA253B7C6 /* Project object */ = {
+            isa = PBXProject;
+            attributes = {
+                LastUpgradeCheck = 1600;
+                TargetAttributes = {
+                    667C1776E4454F29B58ACB2C = {
+                        CreatedOnToolsVersion = 16.0;
+                    };
+                };
+            };
+            buildConfigurationList = 3228E8CBBC59475C94DDCF21 /* Build configuration list for PBXProject "MediaPlayback-macOS" */;
+            compatibilityVersion = "Xcode 16.0";
+            developmentRegion = en;
+            hasScannedForEncodings = 0;
+            knownRegions = (
+                en,
+                Base,
+            );
+            mainGroup = 09A6A269CF224415B3525875;
+            productRefGroup = 6588D19C1A5C4D96A2CFC35C /* Products */;
+            projectDirPath = "";
+            projectRoot = "";
+            targets = (
+                667C1776E4454F29B58ACB2C /* MediaPlayback-macOS */,
+            );
+        };
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+        17DB7565C8E44CD6A0117BDB /* Resources */ = {
+            isa = PBXResourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+        7C1A87CB51A44C06BFC2986E /* Sources */ = {
+            isa = PBXSourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+        913B78A5A375416AA4538686 /* MediaPlaybackSample_macOSApp.swift in Sources */ = {
+            isa = PBXBuildFile;
+            fileRef = F0C8538918EB4F2EB97B889E /* MediaPlaybackSample_macOSApp.swift */;
+        };
+        BC3FCA15862F4EDEABDBCBF6 /* PlayerViewRepresentable.swift in Sources */ = {
+            isa = PBXBuildFile;
+            fileRef = 574FC8E6E92145DEB5F17D27 /* PlayerViewRepresentable.swift */;
+        };
+        7075A45DFB594098B22EBCD9 /* ContentView.swift in Sources */ = {
+            isa = PBXBuildFile;
+            fileRef = 0F79C6A46BF84AD6B6F65B14 /* ContentView.swift */;
+        };
+            );
+                        25CA93FA9BEB46729F90540C /* ResilientStreamer.swift in Sources */,
+            5F9497E164F341F29CFD0C2F /* PlaybackUtilities.swift in Sources */,
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+
+        3BBE369683FC4A35884B7282 /* Sources */ = {
+            isa = PBXSourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+                C5CEF9A409414D52960B8CDF /* ReadyToPlayTests.swift in Sources */,
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+        BD5971B24C4C428BA724C39E /* Debug */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                CLANG_ENABLE_OBJC_WEAK = YES;
+                GENERATE_INFOPLIST_FILE = NO;
+                MACOSX_DEPLOYMENT_TARGET = 14.0;
+                SDKROOT = macosx;
+                SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+                SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+                SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+            };
+            name = Debug;
+        };
+        3A3686DE2D77463E8F314630 /* Release */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                CLANG_ENABLE_OBJC_WEAK = YES;
+                GENERATE_INFOPLIST_FILE = NO;
+                MACOSX_DEPLOYMENT_TARGET = 14.0;
+                SDKROOT = macosx;
+                SWIFT_OPTIMIZATION_LEVEL = "-O";
+                SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+            };
+            name = Release;
+        };
+        D7257058A1A045E7AB15FF90 /* Debug */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                CODE_SIGN_STYLE = Automatic;
+                CURRENT_PROJECT_VERSION = 1;
+                INFOPLIST_FILE = "MediaPlayback-macOS/Info.plist";
+                LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+                MARKETING_VERSION = 1.0;
+                PRODUCT_BUNDLE_IDENTIFIER = "com.example.MediaPlaybackSamplemacOS";
+                PRODUCT_NAME = "$(TARGET_NAME)";
+                SWIFT_EMIT_LOC_STRINGS = YES;
+            };
+            name = Debug;
+        };
+        83D1B1DD8E714FB98C3A65B7 /* Release */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                CODE_SIGN_STYLE = Automatic;
+                CURRENT_PROJECT_VERSION = 1;
+                INFOPLIST_FILE = "MediaPlayback-macOS/Info.plist";
+                LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+                MARKETING_VERSION = 1.0;
+                PRODUCT_BUNDLE_IDENTIFIER = "com.example.MediaPlaybackSamplemacOS";
+                PRODUCT_NAME = "$(TARGET_NAME)";
+                SWIFT_EMIT_LOC_STRINGS = YES;
+            };
+            name = Release;
+        };
+
+        9338906B08A04AFCB4DA10A4 /* Debug */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                MACOSX_DEPLOYMENT_TARGET = 14.0;
+                SDKROOT = macosx;
+                PRODUCT_BUNDLE_IDENTIFIER = "com.example.MediaPlaybackSamplemacOSTests";
+                GENERATE_INFOPLIST_FILE = YES;
+            };
+            name = Debug;
+        };
+        9AF265215AD04EF1AE30C4CB /* Release */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                MACOSX_DEPLOYMENT_TARGET = 14.0;
+                SDKROOT = macosx;
+                PRODUCT_BUNDLE_IDENTIFIER = "com.example.MediaPlaybackSamplemacOSTests";
+                GENERATE_INFOPLIST_FILE = YES;
+            };
+            name = Release;
+        };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+        3228E8CBBC59475C94DDCF21 /* Build configuration list for PBXProject "MediaPlayback-macOS" */ = {
+            isa = XCConfigurationList;
+            buildConfigurations = (
+                BD5971B24C4C428BA724C39E /* Debug */,
+                3A3686DE2D77463E8F314630 /* Release */,
+            );
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Release;
+        };
+        E6BF0D24D55446B2A9DE16C7 /* Build configuration list for PBXNativeTarget "MediaPlayback-macOS" */ = {
+            isa = XCConfigurationList;
+            buildConfigurations = (
+                D7257058A1A045E7AB15FF90 /* Debug */,
+                83D1B1DD8E714FB98C3A65B7 /* Release */,
+            );
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Release;
+        };
+
+        FDF87BAA98894BEFA8654146 /* Build configuration list for PBXNativeTarget "MediaPlayback-macOSTests" */ = {
+            isa = XCConfigurationList;
+            buildConfigurations = (
+                9338906B08A04AFCB4DA10A4 /* Debug */,
+                9AF265215AD04EF1AE30C4CB /* Release */,
+            );
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Release;
+        };
+/* End XCConfigurationList section */
+
+    };
+    rootObject = 31A840F4C9534ADEA253B7C6 /* Project object */;
+}

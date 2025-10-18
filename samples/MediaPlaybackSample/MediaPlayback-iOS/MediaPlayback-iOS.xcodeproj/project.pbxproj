@@ -1,0 +1,307 @@
+
+// !\$*UTF8*\$!
+{
+    archiveVersion = 1;
+    objectVersion = 60;
+    objects = {
+
+/* Begin PBXBuildFile section */
+        B8491FC7A74544698CD91018 /* MediaPlaybackSample_iOSApp.swift in Sources */ = {
+            isa = PBXBuildFile;
+            fileRef = 8EDDD70410AA4B9D81FCCE96 /* MediaPlaybackSample_iOSApp.swift */;
+        };
+        13AC5925A75E400592D196A9 /* ContentView.swift in Sources */ = {
+            isa = PBXBuildFile;
+            fileRef = FCBA5F43A8E8424F96C6F8B9 /* ContentView.swift */;
+        };
+        FF7C61F7C4A9400382E9051A /* PlayerViewControllerRepresentable.swift in Sources */ = {
+            isa = PBXBuildFile;
+            fileRef = 2BAB2775EBB84A85B546404E /* PlayerViewControllerRepresentable.swift */;
+        };
+        3A67754D858541D98720EA75 /* NowPlaying.swift in Sources */ = {
+            isa = PBXBuildFile;
+            fileRef = E626AEF027634FE982E9D60A /* NowPlaying.swift */;
+        };
+        A7888DF89AF7419C91C4519E /* HLSDownloader.swift in Sources */ = {
+            isa = PBXBuildFile;
+            fileRef = 31F4457A50F64332A323BC83 /* HLSDownloader.swift */;
+        };
+        FCFE3D95A3D54BCDBDCB506E /* NetworkWatcher.swift in Sources */ = {
+            isa = PBXBuildFile;
+            fileRef = 5225DDE4487149A1B785B3BA /* NetworkWatcher.swift */;
+        };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+        8EDDD70410AA4B9D81FCCE96 /* MediaPlaybackSample_iOSApp.swift */ = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = MediaPlaybackSample_iOSApp.swift;
+            sourceTree = "<group>";
+        };
+        FCBA5F43A8E8424F96C6F8B9 /* ContentView.swift */ = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = ContentView.swift;
+            sourceTree = "<group>";
+        };
+        2BAB2775EBB84A85B546404E /* PlayerViewControllerRepresentable.swift */ = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = PlayerViewControllerRepresentable.swift;
+            sourceTree = "<group>";
+        };
+        E626AEF027634FE982E9D60A /* NowPlaying.swift */ = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = NowPlaying.swift;
+            sourceTree = "<group>";
+        };
+        31F4457A50F64332A323BC83 /* HLSDownloader.swift */ = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = HLSDownloader.swift;
+            sourceTree = "<group>";
+        };
+        5225DDE4487149A1B785B3BA /* NetworkWatcher.swift */ = {
+            isa = PBXFileReference;
+            lastKnownFileType = sourcecode.swift;
+            path = NetworkWatcher.swift;
+            sourceTree = "<group>";
+        };
+        25C7EE85036D43D6AABE69EF /* Info.plist */ = {
+            isa = PBXFileReference;
+            lastKnownFileType = text.plist.xml;
+            path = Info.plist;
+            sourceTree = "<group>";
+        };
+        BF755F4BD5EA4B498BAA6EE7 /* MediaPlayback-iOS.app */ = {
+            isa = PBXFileReference;
+            explicitFileType = wrapper.application;
+            path = "MediaPlayback-iOS.app";
+            sourceTree = BUILT_PRODUCTS_DIR;
+        };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+        3C25FE28C0BC4D56BAC3FF9F /* Frameworks */ = {
+            isa = PBXFrameworksBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+        CB1245AEF5C94F32B55C5040 = {
+            isa = PBXGroup;
+            children = (
+                2CA4A20050044FB3810B00BB /* Products */,
+                B43FD02678A84A7E8EF0876C /* MediaPlayback-iOS */,
+            );
+            sourceTree = "<group>";
+        };
+        2CA4A20050044FB3810B00BB /* Products */ = {
+            isa = PBXGroup;
+            children = (
+                BF755F4BD5EA4B498BAA6EE7 /* MediaPlayback-iOS.app */,
+            );
+            name = Products;
+            sourceTree = "<group>";
+        };
+
+        86182EA05C5A4BEA8307B9F6 /* MediaPlayback-iOS */ = {
+            isa = PBXGroup;
+            children = (
+                8EDDD70410AA4B9D81FCCE96 /* MediaPlaybackSample_iOSApp.swift */,
+                FCBA5F43A8E8424F96C6F8B9 /* ContentView.swift */,
+                2BAB2775EBB84A85B546404E /* PlayerViewControllerRepresentable.swift */,
+                E626AEF027634FE982E9D60A /* NowPlaying.swift */,
+                31F4457A50F64332A323BC83 /* HLSDownloader.swift */,
+                5225DDE4487149A1B785B3BA /* NetworkWatcher.swift */,
+                25C7EE85036D43D6AABE69EF /* Info.plist */,
+            );
+            path = "MediaPlayback-iOS";
+            sourceTree = "<group>";
+        };
+
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+        9DF6EB93CC9B4C11B5960FD8 /* MediaPlayback-iOS */ = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = F34EA96976DF4031A433F052 /* Build configuration list for PBXNativeTarget "MediaPlayback-iOS" */;
+            buildPhases = (
+                B2FAC3B132F147709F8CFBFA /* Sources */,
+                3C25FE28C0BC4D56BAC3FF9F /* Frameworks */,
+                D6271040FC5C402B9C02BF8D /* Resources */,
+            );
+            buildRules = (
+            );
+            dependencies = (
+            );
+            name = "MediaPlayback-iOS";
+            productName = "MediaPlayback-iOS";
+            productReference = BF755F4BD5EA4B498BAA6EE7 /* MediaPlayback-iOS.app */;
+            productType = "com.apple.product-type.application";
+        };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+        320E5AF3F93E417BA41F4AAE /* Project object */ = {
+            isa = PBXProject;
+            attributes = {
+                LastUpgradeCheck = 1600;
+                TargetAttributes = {
+                    9DF6EB93CC9B4C11B5960FD8 = {
+                        CreatedOnToolsVersion = 16.0;
+                    };
+                };
+            };
+            buildConfigurationList = 1BB2CD6BFACA41188DDA6ED9 /* Build configuration list for PBXProject "MediaPlayback-iOS" */;
+            compatibilityVersion = "Xcode 16.0";
+            developmentRegion = en;
+            hasScannedForEncodings = 0;
+            knownRegions = (
+                en,
+                Base,
+            );
+            mainGroup = CB1245AEF5C94F32B55C5040;
+            productRefGroup = 2CA4A20050044FB3810B00BB /* Products */;
+            projectDirPath = "";
+            projectRoot = "";
+            targets = (
+                9DF6EB93CC9B4C11B5960FD8 /* MediaPlayback-iOS */,
+            );
+        };
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+        D6271040FC5C402B9C02BF8D /* Resources */ = {
+            isa = PBXResourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+        B2FAC3B132F147709F8CFBFA /* Sources */ = {
+            isa = PBXSourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = (
+        B8491FC7A74544698CD91018 /* MediaPlaybackSample_iOSApp.swift in Sources */ = {
+            isa = PBXBuildFile;
+            fileRef = 8EDDD70410AA4B9D81FCCE96 /* MediaPlaybackSample_iOSApp.swift */;
+        };
+        13AC5925A75E400592D196A9 /* ContentView.swift in Sources */ = {
+            isa = PBXBuildFile;
+            fileRef = FCBA5F43A8E8424F96C6F8B9 /* ContentView.swift */;
+        };
+        FF7C61F7C4A9400382E9051A /* PlayerViewControllerRepresentable.swift in Sources */ = {
+            isa = PBXBuildFile;
+            fileRef = 2BAB2775EBB84A85B546404E /* PlayerViewControllerRepresentable.swift */;
+        };
+        3A67754D858541D98720EA75 /* NowPlaying.swift in Sources */ = {
+            isa = PBXBuildFile;
+            fileRef = E626AEF027634FE982E9D60A /* NowPlaying.swift */;
+        };
+        A7888DF89AF7419C91C4519E /* HLSDownloader.swift in Sources */ = {
+            isa = PBXBuildFile;
+            fileRef = 31F4457A50F64332A323BC83 /* HLSDownloader.swift */;
+        };
+        FCFE3D95A3D54BCDBDCB506E /* NetworkWatcher.swift in Sources */ = {
+            isa = PBXBuildFile;
+            fileRef = 5225DDE4487149A1B785B3BA /* NetworkWatcher.swift */;
+        };
+            );
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+        6A7882895E4E4A8296B1CA47 /* Debug */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                CLANG_ENABLE_OBJC_WEAK = YES;
+                GENERATE_INFOPLIST_FILE = NO;
+                IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+                SDKROOT = iphoneos;
+                SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+                SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+                TARGETED_DEVICE_FAMILY = "1,2";
+            };
+            name = Debug;
+        };
+        3DCF5EB17DA440BD8FA156B8 /* Release */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                CLANG_ENABLE_OBJC_WEAK = YES;
+                GENERATE_INFOPLIST_FILE = NO;
+                IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+                SDKROOT = iphoneos;
+                SWIFT_OPTIMIZATION_LEVEL = "-O";
+                TARGETED_DEVICE_FAMILY = "1,2";
+            };
+            name = Release;
+        };
+        A7766792C4184A8EA608171B /* Debug */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+                CODE_SIGN_STYLE = Automatic;
+                CURRENT_PROJECT_VERSION = 1;
+                INFOPLIST_FILE = "MediaPlayback-iOS/Info.plist";
+                LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+                MARKETING_VERSION = 1.0;
+                PRODUCT_BUNDLE_IDENTIFIER = "com.example.MediaPlaybackSampleiOS";
+                PRODUCT_NAME = "$(TARGET_NAME)";
+                SWIFT_EMIT_LOC_STRINGS = YES;
+                TARGETED_DEVICE_FAMILY = "1,2";
+            };
+            name = Debug;
+        };
+        F98CB7277F4A45E68B6BE9F7 /* Release */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+                CODE_SIGN_STYLE = Automatic;
+                CURRENT_PROJECT_VERSION = 1;
+                INFOPLIST_FILE = "MediaPlayback-iOS/Info.plist";
+                LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+                MARKETING_VERSION = 1.0;
+                PRODUCT_BUNDLE_IDENTIFIER = "com.example.MediaPlaybackSampleiOS";
+                PRODUCT_NAME = "$(TARGET_NAME)";
+                SWIFT_EMIT_LOC_STRINGS = YES;
+                TARGETED_DEVICE_FAMILY = "1,2";
+            };
+            name = Release;
+        };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+        1BB2CD6BFACA41188DDA6ED9 /* Build configuration list for PBXProject "MediaPlayback-iOS" */ = {
+            isa = XCConfigurationList;
+            buildConfigurations = (
+                6A7882895E4E4A8296B1CA47 /* Debug */,
+                3DCF5EB17DA440BD8FA156B8 /* Release */,
+            );
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Release;
+        };
+        F34EA96976DF4031A433F052 /* Build configuration list for PBXNativeTarget "MediaPlayback-iOS" */ = {
+            isa = XCConfigurationList;
+            buildConfigurations = (
+                A7766792C4184A8EA608171B /* Debug */,
+                F98CB7277F4A45E68B6BE9F7 /* Release */,
+            );
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Release;
+        };
+/* End XCConfigurationList section */
+
+    };
+    rootObject = 320E5AF3F93E417BA41F4AAE /* Project object */;
+}

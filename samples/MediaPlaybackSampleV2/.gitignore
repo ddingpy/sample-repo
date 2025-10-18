@@ -1,0 +1,74 @@
+# Xcode
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# User settings
+.DS_Store
+*.swp
+
+# Xcode build
+build/
+DerivedData/
+
+# Xcode project user data
+xcuserdata/
+*.xcuserdatad
+*.xcuserstate
+
+# Xcode workspace
+*.xcworkspace/contents.xcworkspacedata
+*.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+xcshareddata/
+
+# Xcode scheme/project files that are user-specific
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Archives
+*.xcarchive
+*.app.dSYM
+
+# Provisioning profiles
+*.mobileprovision
+
+# Temporary files
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Other
+*.xccheckout
+*.xcscmblueprint
+*.xcodeproj/project.xcworkspace
+.idea/
+.vscode/
+
+# macOS
+.DS_Store
+
